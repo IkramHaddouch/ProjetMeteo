@@ -111,7 +111,7 @@ Ensuite, lorsque l'on clique sur 'Get the weather at the given address', la page
 
 ![MeteoPage3](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/3f52a1eb-a227-4403-a47f-d72ad288ed74)
 
-Si l'adresse entree n'est pas correcte on affiche un erreur.
+Si l'adresse entree n'est pas correcte on affiche une erreur.
 
 ![error](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/6ce838af-c25d-4d29-a80f-cd8e2acf725d)
 

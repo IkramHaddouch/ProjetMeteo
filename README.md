@@ -26,7 +26,7 @@ Ce projet utilise plusieurs dépendances pour son fonctionnement. Voici une desc
 
 ### Étape 12
 
-<img src=https://github.com/IkramHaddouch/ProjetMeteo/tree/master/images/Etape12Partie1.png>
+![Etape12](Etape12Partie1.png)
 
 ### Étape 13
 

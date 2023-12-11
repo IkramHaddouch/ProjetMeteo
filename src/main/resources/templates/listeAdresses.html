@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meteo</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div th:replace="navbar :: navbar"></div>
+    <div class="container">
+        <form action="/searchAddress" method="get" class="form-inline mt-3" style="margin-bottom : 30px;">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Entrez une adresse" name="query">
+                <button type="submit" class="btn btn-primary">Lister</button>
+            </div>
+        </form>
+
+        <h1 style="text-transform: uppercase;" th:text="${query}"></h1>
+
+        <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Adresse</th>
+                    <th>Wind10m</th>
+                    <th>Probarain</th>
+                    <th>Tmin</th>
+                    <th>Tmax</th>
+                    <th>Sun Hours</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Boucle sur la liste des adresses -->
+                <th:block th:each="address : ${addresses}">
+                    <tr>
+                        <td th:text="${address.id}"></td>
+                        <td th:text="${address.address}"></td>
+                        <td th:text="${address.wind10m}"></td>
+                        <td th:text="${address.probarain}"></td>
+                        <td th:text="${address.tmin}"></td>
+                        <td th:text="${address.tmax}"></td>
+                        <td th:text="${address.sunHours}"></td>
+                        <td>
+
+                            <!-- Formulaire pour supprimer -->
+                            <form th:action="@{'/delete/' + ${address.id}}" method="post" style="display: inline;">
+                                <input type="hidden" name="_method" value="DELETE"/>
+                                <button class="btn btn-danger" type="submit">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                </th:block>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

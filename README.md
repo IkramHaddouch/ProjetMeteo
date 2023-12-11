@@ -129,7 +129,7 @@ On peut chercher une adresse.
 
 ![Rechercher](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/42f17e1e-23af-44cc-bbd2-a4df5510ec64)
 
-Et on peut supprimé une ligne en cliquant sur 'Delete', par exemple ici j'ai supprimer la ligne de 'Paris'.
+Et on peut supprimer une ligne en cliquant sur 'Delete', par exemple ici j'ai supprimer la ligne de 'Paris'.
 
 ![RecherchePage](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/662c8129-0bc3-4426-ae41-6f15ad1894fb)
 

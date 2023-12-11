@@ -25,8 +25,8 @@ Ce projet utilise plusieurs dépendances pour son fonctionnement. Voici une desc
   - Framework ORM pour la communication entre une application Java et une base de données relationnelle, simplifiant l'accès et la manipulation des données avec des objets Java.
 
 ### Étape 12
+![Etape12Partie1](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/c3400e77-0f9f-499f-8c50-3b99864f1ae1)
 
-![Etape12](Etape12Partie1.png)
 
 ### Étape 13
 

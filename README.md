@@ -121,15 +121,15 @@ Ensuite, nous avons un champ contenant l'adresse accompagné d'un bouton 'Lister
 
 ![Lister](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/9f30c083-62d6-40e1-9121-145185835d77)
 
-On peut aussi naviger vers cette page 'Recherche'.
+On peut aussi naviguer vers cette page 'Recherche'.
 
 ![RecherchePage](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/6ed055c4-1ac0-415e-9b5c-89e69045d011)
 
-On peut cherche une adresse.
+On peut chercher une adresse.
 
 ![Rechercher](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/42f17e1e-23af-44cc-bbd2-a4df5510ec64)
 
-Et on peut supprimer une ligne en cliquant sur 'Delete', par exemple ici j'ai supprimer la ligne de 'Paris'.
+Et on peut supprimé une ligne en cliquant sur 'Delete', par exemple ici j'ai supprimer la ligne de 'Paris'.
 
 ![RecherchePage](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/662c8129-0bc3-4426-ae41-6f15ad1894fb)
 

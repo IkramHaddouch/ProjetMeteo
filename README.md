@@ -40,7 +40,8 @@ Ce projet utilise plusieurs dépendances pour son fonctionnement. Voici une desc
 
 ### Étape 14
 
-![Etape14](Etape14Partie1.png)
+![Etape14Partie1](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/0efb0388-b8b4-49da-8e70-2cb7b1ef3cdc)
+
 
 ### Étape 17
 
@@ -54,7 +55,8 @@ Hibernate facilite la persistance des objets Java dans une base de données rela
 
 ### Étape 20
 
-![Etape20](Etape20Partie1.png)
+![Etape20Partie1](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/33166907-2f51-4a5f-a6db-5adf1af6e939)
+
 
 ### Étape 22
 
@@ -77,11 +79,13 @@ Cette annotation permet de simplifier la gestion des dépendances en laissant Sp
    ```html
    <span th:text="${address.content} + ' -> ' + ${address.author}"></span>
 
-![Etape26](Etape26Partie1.png)
+![Etape26Partie1](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/78969296-ea67-4434-bb40-d9979719dd9f)
+
 
 ### Étape 27
 
-![Etape27](Etape27Partie1.png)
+![Etape27Partie1](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/aeec2d22-ae49-4ed4-ad0b-1cde8f69f15d)
+
 
 ### Étape 30
 
@@ -92,45 +96,45 @@ Pour utiliser Bootstrap dans les pages HTML (par exemple, addresses.html, greeti
 
 ### Utilisation d'API Etalab pour récupérer la latitude et la longitude et l'API Meteo Concept pour récupérer les données du méteo
 
-![APIEtalab](APIEtalab.png)
+![APIEtalab](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/218f535c-d34d-439a-81fd-121785d438b1)
 
-![APIMeteoConcept](APIMeteoConcept.png)
+![APIMeteoConcept](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/f1861ceb-acc9-4d40-a724-b1feddd57470)
 
 ### Demo
 
 La première page est la page 'Home, où l'on entre l'adresse que l'on souhaite pour afficher sa météo.
 
-![HomePage](HomePage.png)
+![HomePage](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/501ef9e9-afb8-44d6-9a59-b9b1364af0d2)
 
 Ensuite, lorsque l'on clique sur 'Get the weather at the given address', la page 'Météo' s'affiche, affichant les informations météorologiques de l'adresse saisie, si cette dernière est correcte.
 
-![MeteoPage2](MeteoPage2.png)
+![MeteoPage2](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/52fb0cde-a791-4f71-94d0-9fa436ad73dc)
 
-![MeteoPage3](MeteoPage3.png)
+![MeteoPage3](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/3f52a1eb-a227-4403-a47f-d72ad288ed74)
 
 Si l'adresse entree n'est pas correcte on affiche un erreur.
 
-![error](error.png)
+![error](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/6ce838af-c25d-4d29-a80f-cd8e2acf725d)
 
 Ensuite, nous avons un champ contenant l'adresse accompagné d'un bouton 'Lister'. Si l'on clique sur ce bouton, une page de 'Recherche' s'affiche, répertoriant toutes les informations météorologiques déjà enregistrées dans la base de données pour cette adresse.
 
-![MeteoPage](MeteoPage.png)
+![MeteoPage](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/71c4161f-3200-479b-8c84-04bb83cb03a1)
 
-![Lister](Lister.png)
+![Lister](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/9f30c083-62d6-40e1-9121-145185835d77)
 
 On peut aussi naviger vers cette page 'Recherche'.
 
-![RecherchePage](RecherchePage.png)
+![RecherchePage](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/6ed055c4-1ac0-415e-9b5c-89e69045d011)
 
 On peut cherche une adresse.
 
-![Rechercher](Rechercher.png)
+![Rechercher](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/42f17e1e-23af-44cc-bbd2-a4df5510ec64)
 
 Et on peut supprimer une ligne en cliquant sur 'Delete', par exemple ici j'ai supprimer la ligne de 'Paris'.
 
-![RecherchePage](RecherchePage.png)
+![RecherchePage](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/662c8129-0bc3-4426-ae41-6f15ad1894fb)
 
-![supprimer](supprimer.png)
+![supprimer](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/eb71f224-ef16-49d9-98cc-ab9c166c5069)
 
 ### Réponses aux questions de l'étape 6
 

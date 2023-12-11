@@ -42,7 +42,6 @@ Ce projet utilise plusieurs dépendances pour son fonctionnement. Voici une desc
 
 ![Etape14Partie1](https://github.com/IkramHaddouch/ProjetMeteo/assets/115647126/0efb0388-b8b4-49da-8e70-2cb7b1ef3cdc)
 
-
 ### Étape 17
 
 Après avoir relancé l'application Spring Boot et accédé à nouveau à la console H2 via [http://localhost:9090/h2-console](http://localhost:9090/h2-console), une nouvelle table nommée `Address` a été ajoutée dans la base de données. Cette table `Address` correspond à la classe `Address` annotée avec `@Entity` dans le code source, définissant ainsi la structure de la table dans la base de données H2.
